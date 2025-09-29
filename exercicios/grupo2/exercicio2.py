@@ -12,5 +12,6 @@ def valida_primo(numero):
     else:
         return f"{numero} não é primo."
 
+#Retorno final
 numero = int(input("Digite um número para saber se é primo ou não: "))
 print(valida_primo(numero))

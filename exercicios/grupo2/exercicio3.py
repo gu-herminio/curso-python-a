@@ -10,7 +10,7 @@ def valida_numero(numero):
         print(f"O número {numero} não pertence a tabuada de 3.")
 
 
-# A mesma função anterior porém usando biblioteca Sympy para treinar a utilidade da VENV assim como citei no exercicio2
+# A mesma função anterior porém usando biblioteca Sympy para treinar a utilidade da VENV assim como citei no exercicio 2
 def valida_numero_biblioteca(numero,divisor = 3):
     resto = Mod(numero,divisor)
 
@@ -20,9 +20,7 @@ def valida_numero_biblioteca(numero,divisor = 3):
         print(f"O número {numero} não pertence a tabuada de 3.")
 
 
-
-
-
+#Retorno final
 numero = int(input("Digite um número para descobrir se pertence a tabuada de 3: "))
 valida_numero(numero)
 valida_numero_biblioteca(numero)

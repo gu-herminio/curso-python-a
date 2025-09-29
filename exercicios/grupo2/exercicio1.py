@@ -5,8 +5,9 @@ def validacao(numero):
         print(f"O número {numero} é par")
     else:
         print(f"O número {numero} é ímpar")
-        
 
+
+#Retorno final
 numero = int(input("Digite um número para descobrir se é par ou ímpar:"))
 validacao(numero)
 
