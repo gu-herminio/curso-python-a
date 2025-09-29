@@ -8,3 +8,4 @@ r = n1**2
 
 #Retorno final
 print(f"O valor ao quadrado do número {n1} é {r}.")
+

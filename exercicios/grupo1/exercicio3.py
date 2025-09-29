@@ -18,7 +18,7 @@ elif media >= 5 and media < 7:
 else:
     situacao = "Aprovado."
 
-#Retorno finalG
+#Retorno final
 print(f"A média do aluno {nome_aluno} foi {media} e a sua situação é: {situacao}")
 
 

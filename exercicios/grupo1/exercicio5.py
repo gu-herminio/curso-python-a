@@ -8,6 +8,6 @@ lado = float(input("Digite o valor em centimetros dos lados do quadrado: "))
 area = lado ** 2
 
 #Resultado final
-print(f"A área do quadrado cujo os lados possuem {lado:.3f}cm é {area:.3f}cm².")
+print(f"A área do quadrado cujo os lados possuem {lado:.2f}cm é {area:.2f}cm².")
 
 
